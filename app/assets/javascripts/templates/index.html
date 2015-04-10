@@ -11,8 +11,10 @@
       <button ng-click="search(keywords)" class="btn btn-primary btn-lg">Search</button>
     </div>
   </form>
-  <section class="row" ng-show="reviews">
+
+  <section class="row" ng-if="reviews">
   </section>
+
   <ul class="list-unstyled">
     <li ng-repeat="review in reviews">
       <section class="well col-md-6 col-md-offset-3">
