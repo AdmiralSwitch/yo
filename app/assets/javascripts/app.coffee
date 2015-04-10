@@ -1,0 +1,2 @@
+yo = angular.module('yo',[
+])
