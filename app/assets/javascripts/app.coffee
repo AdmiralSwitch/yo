@@ -1,6 +1,7 @@
 yo = angular.module('yo',[
   'templates',
   'ngRoute',
+  'ngResource',
   'controllers',
 ])
 
